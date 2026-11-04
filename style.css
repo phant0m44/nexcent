@@ -125,3 +125,25 @@ a {
 .hero-btn {
   margin-top: 32px;
 }
+.hero-img {
+  display: block;
+  width: 391px;
+  height: 407px;
+}
+.hero-dots {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--green-light);
+}
+.dot-active {
+  background-color: var(--green);
+}

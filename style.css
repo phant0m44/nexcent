@@ -251,3 +251,46 @@ a {
 .connect-btn {
   margin-top: 32px;
 }
+
+@media (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+    gap: 40px;
+    height: auto;
+    padding: 60px var(--page-padding);
+    text-align: center;
+  }
+  .hero-price {
+    position: static;
+    margin-left: 8px;
+  }
+  .clients {
+    height: auto;
+  }
+  .clients-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    height: auto;
+  }
+  .about {
+    height: auto;
+  }
+  .about-cards {
+    flex-direction: column;
+    height: auto;
+  }
+  .card {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+  }
+  .connect {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+  .connect-content {
+    width: 100%;
+  }
+}

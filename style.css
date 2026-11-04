@@ -225,3 +225,29 @@ a {
 .card-text-featured {
   max-width: 240px;
 }
+
+.connect {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  height: 433px;
+  margin-top: 42px;
+  padding: 0 var(--page-padding);
+}
+.connect-img {
+  width: 442px;
+}
+.connect-content {
+  width: 661px;
+}
+.connect-text {
+  margin-top: 16px;
+  max-width: 601px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--text-gray);
+}
+.connect-btn {
+  margin-top: 32px;
+}

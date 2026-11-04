@@ -85,3 +85,43 @@ a {
 .nav-link:hover {
   color: var(--green);
 }
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 72px;
+  height: 599px;
+  padding: 0 var(--page-padding);
+  background-color: var(--bg-gray);
+}
+.hero-content {
+  flex: 1;
+}
+.hero-title {
+  position: relative;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+}
+.highlight {
+  color: var(--green);
+}
+.hero-price {
+  position: absolute;
+  top: 128px;
+  left: 465px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.hero-text {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-gray);
+}
+.hero-btn {
+  margin-top: 32px;
+}

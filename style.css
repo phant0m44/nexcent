@@ -147,3 +147,43 @@ a {
 .dot-active {
   background-color: var(--green);
 }
+
+.section-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.section-text {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-gray);
+}
+
+.clients {
+  height: 190px;
+  margin-top: 40px;
+  padding: 0 var(--page-padding);
+  text-align: center;
+}
+.clients-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 98px;
+  margin-top: 16px;
+}
+.client-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+.about {
+  height: 416px;
+  margin-top: 40px;
+  padding: 0 var(--page-padding);
+  text-align: center;
+}
